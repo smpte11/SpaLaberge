@@ -1,0 +1,7 @@
+.separator{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid 2px turquoise;
+}
