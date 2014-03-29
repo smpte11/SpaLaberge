@@ -1,7 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400);
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    position: relative;
+    color: #ffffff;
+    background-color: rgba(31, 31, 31, 1);
+}
+
+.list-inline{
+    margin: 0;
+}
+
 .separator{
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-bottom: solid 2px turquoise;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    border-bottom: solid 1px turquoise;
+}
+
+.separator ul li {
+    display: inline;
+}
+
+.img-responsive{
+    max-height: 175px;
+    margin-top: 10px;
+}
+
+section h3{
+    position: absolute;
+    top: -18px;
+    left: 14px;
+
+    font-size: 30pt;
+
+    color: rgba(31, 31, 31, 1);
+}
+
+.col-xs-4{
+    margin-top: -60px;
+}
+
+.rotated-header{
+    position: relative;
+    top: 30px;
+    left: 15px;
+
+    -webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);
+
+    -webkit-transform-origin: 0 0;-moz-transform-origin: 0 0;-ms-transform-origin: 0 0;-o-transform-origin: 0 0;transform-origin: 0 0;
+}
+
+.first-letter:first-letter{
+    color: turquoise;
+}
+
+.dl-horizontal dd {
+    margin-left: 0;
 }
