@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    //open animation *draft*
+
     $(".img-responsive").click(function(){
 
         $(this).next(".content-window").show().animate({
@@ -9,6 +11,9 @@ $(document).ready(function(){
         }, 500, "linear");
 
     });
+
+
+    //closing animation *draft*
 
     $("span").click(function(){
 
