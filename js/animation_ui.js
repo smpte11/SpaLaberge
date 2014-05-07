@@ -1,17 +1,29 @@
 $(document).ready(function(){
 
-    $('.img-responsive').click(function(){
+    $(".img-responsive").click(function(){
 
-        $("." + $(this).attr("class") + " + .content-window").animate({
+        $(this).next(".content-window").show().animate({
 
-            height: $("article").height() + "px"
+            "height": $("article").height() + "px"
 
-        }, 2000, function(){
+        }, 500, "linear");
 
-            this.show();
+    });
+
+    $("span").click(function(){
+
+        var parent = $(this).parent('.content-window');
+
+        parent.animate({
+
+            "height": 0
+
+        }, 500, "linear", function(){
+
+            parent.hide();
 
         });
 
-    })
+    });
 
 });
