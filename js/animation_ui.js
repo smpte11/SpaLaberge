@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     //open animation *draft*
 
-    $(".img-responsive").click(function(){
+    $(".img-responsive").click(function () {
 
         $(this).next(".content-window").show().animate({
 
@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     //closing animation *draft*
 
-    $("span").click(function(){
+    $("span").click(function () {
 
         var parent = $(this).parent('.content-window');
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
 
             "height": 0
 
-        }, 500, "linear", function(){
+        }, 500, "linear", function () {
 
             parent.hide();
 
