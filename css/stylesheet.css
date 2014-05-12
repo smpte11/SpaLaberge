@@ -76,7 +76,7 @@ span:hover {
 .rotated-header {
     position: relative;
     top: 30px;
-    left: 15px;
+    left: 5px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
