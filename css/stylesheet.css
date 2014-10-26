@@ -62,7 +62,7 @@ section h3 {
 }
 
 .col-xs-5 {
-    margin-top: -60px;
+    margin-top: -30px;
 }
 
 span {
@@ -71,22 +71,6 @@ span {
 
 span:hover {
     cursor: pointer;
-}
-
-.rotated-header {
-    position: relative;
-    top: 30px;
-    left: 5px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    transform-origin: 0 0;
 }
 
 .first-letter:first-letter {
